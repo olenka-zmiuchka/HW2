@@ -1,9 +1,13 @@
 package com.example.projecthw2;
+//
+//Домашнее задание:
+//        1. Установить http клиент, postman или аналог.
+//        2. Написать контроллер, у которого будет внутри Map со статьями(произвольній текст с идентификаторами, например: 1: "Текст1", 2: "Текст 2").
+//        3. Написать єндпоинті для чтения статей(прочитать все и прочитать по идентификатору).
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.HashMap;
 import java.util.Map;
 
